@@ -1,0 +1,19 @@
+.clearfix:after{clear:both; display:block; visibility:hidden; height:0; content:""; font-size:0; line-height:0}
+#xmp-player{width:270px; float:left}
+#xmp-rating{width:80px; float:right}
+#xmp-rating a{display:block; float:left; width:16px; height:16px; background:url(../../images/admin/stars.png) no-repeat 0 0; outline:none}
+#xiami-box, #youku-box{background-color:#FFF; z-index:99999; background:url(../../images/admin/kkkk.png) repeat; position:absolute; left:300px; top:200px; display:none; padding:2px}
+#xiami-wrapper, #youku-wrapper{width:510px; border:1px solid #BFBFBF; background-color:#FFF}
+#xiami-arrow, #youku-arrow{width:21px; height:11px; background:url(../../images/admin/arrow.png) no-repeat 0 0; position:absolute; left:42px; top:-7px}
+#xiami-song, #xiami-footer, #youku-song, #youku-footer{background-color:#FFF; padding:15px}
+#xms-id, #yks-id{width:400px; float:left; position:relative; z-index:98}
+#xms-empty, #yks-empty{width:14px; height:14px; position:absolute; right:5px; top:8px; z-index:101; background:url(../../images/admin/close.png) no-repeat 0 0; outline:none; display:none}
+#xms-preview, #xms-insert, #yks-preview, #yks-insert{float:right; width:60px; height:30px; line-height:30px; color:#FFF; text-align:center; text-decoration:none; cursor:pointer}
+#xms-preview, #yks-preview{display:block}
+#xms-insert, #yks-insert{width:65px; display:none}
+#xms-input, #yks-input{width:400px; height:30px; float:left; border:1px solid #e3e3e3; background:none; line-height:20px; color:#999; -webkit-border-radius:0; border-radius:0; position:relative; z-index:100; padding:5px 30px 5px 5px}
+#xms-label, #yks-label{width:390px; height:30px; line-height:30px; display:block; position:absolute; z-index:99; color:#aaa; cursor:text; padding:0 5px}
+#xms-input:focus, #yks-input:focus{color:#666; -webkit-box-shadow:none; box-shadow:none; border-color:#ccc}
+#xiami-footer, #youku-footer{border-top:1px solid #E3E3E3; background-color:#F7F7F7; color:#666; position:relative}
+#xiami-preview, #youku-preview{display:none; padding-bottom:15px}
+#xmp-rating a.selected, #ykp-rating a.selected{background-position:0 -20px}

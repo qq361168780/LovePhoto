@@ -1,0 +1,131 @@
+﻿.music,
+.login .item,
+.register-info,
+.login .item-submit,
+.footer-nav ul li,
+#hma .hma-li,
+.pagenavi a,
+.tab-tags a,
+.tab-categories li,
+.commodity-info li,
+.atr-profile-footer ul li,
+.icon{
+	display:inline;
+	zoom:1;
+}
+
+.icon{
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+}
+.icon-bookmark {
+	background-position: 0 0;
+	width: 16px;
+}
+.icon-fire {
+	background-position: -32px 0;
+	width: 16px;
+}
+.icon-plus {
+	background-position: -64px 0;
+	width: 16px;
+}
+.icon-checkmark {
+	background-position: -96px 0;
+	width: 16px;
+}
+.icon-cross {
+	background-position: -128px 0;
+	width: 16px;
+}
+.icon-arrow-down {
+	background-position: -160px 0;
+	width: 16px;
+}
+.icon-arrow-up {
+	background-position: -192px 0;
+	width: 16px;
+}
+.icon-heart {
+	background-position: -224px 0;
+	width: 16px;
+}
+.icon-heart2 {
+	background-position: -256px 0;
+	width: 16px;
+}
+.icon-clock {
+	background-position: -288px 0;
+	width: 16px;
+}
+.icon-list {
+	background-position: -320px 0;
+	width: 16px;
+}
+.icon-pen {
+	background-position: -352px 0;
+	width: 16px;
+}
+.icon-images {
+	background-position: -384px 0;
+	width: 16px;
+}
+.icon-music {
+	background-position: -416px 0;
+	width: 16px;
+}
+.icon-play {
+	background-position: -448px 0;
+	width: 16px;
+}
+.icon-pencil {
+	background-position: -480px 0;
+	width: 16px;
+}
+.icon-cog {
+	background-position: 0 -32px;
+}
+.icon-comment {
+	background-position: -32px -32px;
+}
+.icon-home {
+	background-position: -64px -32px;
+}
+.icon-user {
+	background-position: -96px -32px;
+}
+
+#hma{
+	margin-top:20px;
+}
+
+.widget-music .music-body{
+	height:36px;
+}
+
+.bread,
+.archive-footer{
+	position:relative;
+}
+
+.bread .right,
+.archive-footer .right{
+	position:absolute;
+	right:0;
+}
+
+.parent-menu{
+	padding-right:15px;
+	background: url(../images/arrow.png) 100% 60% no-repeat;	
+}
+
+.widget-ul li.submit-new{
+	margin-top:0;
+}
+
+.widget-ul li .icon-home,
+.widget-ul li .icon-cog,
+.widget-ul li .icon-user,
+.widget-ul li .icon-comment{
+	margin-right:14px;
+}
